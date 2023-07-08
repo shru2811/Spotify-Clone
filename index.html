@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./asset/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300&family=Ysabeau+Office:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <ul>
+                    <div class="opt home">
+                        <i class="fa-solid fa-house"></i>
+                        <a></i> Home</a>
+                    </div>
+                    <div class="opt search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a></i> Search</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="top">
+                    <div class="lib">
+                        <img src="./asset/library_icon.png">
+                        <a>Your Library</a>
+                    </div>
+                    <div class="plus"><i class="fa-solid fa-plus"></i></div>
+                    <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                <div class="box">
+                    <h4>Create your first playlist</h4>
+                    <p>It's eas, we'll help you</p>
+                    <button class="black">Create Playlist</button>
+                </div>
+                <div class="box">
+                    <h4>Let's find some podcasts to follow</h4>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button class="black">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="navbar">
+                <div class="icon">
+                    <img src="./asset/backward_icon.png">
+                    <img src="./asset/forward_icon.png" class="hide">
+                </div>
+                <div class="icons">
+                    <button class="black">Explore Premium</button>
+                    <button class="button1 hide black"><i class="fa-regular fa-circle-down" style="color: #ffffff;"></i>Install now</button>
+                    <i class="fa-solid fa-user-group"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="top-card">
+                    <div class="image"> </div>
+                    <div class="text">
+                        <h2>Best Indian Lofi-Hits</h2>
+                        <p>Listen to the most relaxingand chilling song only on the Best Indian Lofi-Hits Playlist! Chill beats to relax and focus! </p>
+                    </div>
+                   
+                </div>
+                <h2>Trending now near you...</h2>
+
+                <div class="bottom-card">
+                    <div class="scard">
+                        <img src="./asset/card2img.jpeg" class="cimg">
+                        <p class="card-title">Maahiye Jinnha Sohna</p>
+                        <p class="info">By Darshan Raval</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/card3img.jpeg" class="cimg">
+                        <p class="card-title">Mere Paas Tum Ho</p>
+                        <p class="info">Lofi Mix 1 min music</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/card4img.jpeg" class="cimg">
+                        <p class="card-title">Na Ready</p>
+                        <p class="info">Anirudh Ravichander, Thalapathy Vijay...</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/card5img.jpeg" class="cimg">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="info"></p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/card6img.jpeg" class="cimg">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="info"></p>
+                    </div>
+                </div>
+                <h2>Made For You</h2>
+                <div class="bottom-card">
+                    <div class="scard">
+                        <img src="./asset/release radar.png" class="cimg">
+                        <p class="card-title">Release Radar</p>
+                        <p class="info">Catch all the latest music from artists you follow</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/mix1.png" class="cimg">
+                        <p class="card-title">Daily Mix 1</p>
+                        <p class="info">Pritam, Arijit Singh, Amit Trivedi and more</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/mix2.png" class="cimg">
+                        <p class="card-title">Daily Mix 2</p>
+                        <p class="info">A.R.Rehman, Sumedh, Mudgalkar...</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/mix3.png" class="cimg">
+                        <p class="card-title">Daily Mix 3</p>
+                        <p class="info">Darshan Raval, Anov Jain, Amrita Singh...</p>
+                    </div>
+                    <div class="scard">
+                        <img src="./asset/mix4.png" class="cimg">
+                        <p class="card-title">Daily Mix 4</p>
+                        <p class="info">Prashant Katheriya, Rahul Jai...</p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+            
+            <div class="foot">
+                <div class="link">
+                    <a><b>Company</b></a>
+                    <a>About</a>
+                    <a>Jobs</a>
+                    <a>For The Records</a>
+                </div>
+                <div class="link">
+                    <a><b>Communities</b></a>
+                    <a>For Artists</a>
+                    <a>Developers</a>
+                    <a>Advertising</a>
+                    <a>Investors</a>
+                    <a>Vendors</a>
+                    <a>Spotify for Work</a>
+
+                </div>
+                <div class="link">
+                    <a><b>Useful Links</b></a>
+                    <a>support</a>
+                    <a>Free Mobile App</a>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="music-player">
+            <div class="left">
+                <img src="./homework asset/album_picture.jpeg">
+                <div class="text">
+                    <div class="head">Tu Hai To Mujhe Phir Aur Kya Chahiye</div>
+                    <div class="desc">Sahin-Jigar Arijit Singh Amit Bhattacharya</div>
+                </div>
+                <div class="like">
+                    <img src="./homework asset/album_icon1.png">
+                    <img src="./homework asset/album_icon2.png">
+                </div>
+            </div>
+            <div class="center">
+                <div class="up">
+                    <img src="./asset/player_icon1.png" class="play-icon side">
+                    <img src="./asset/player_icon2.png" class="play-icon side">
+                    <img src="./asset/player_icon3.png" class="play-icon mid">
+                    <img src="./asset/player_icon4.png" class="play-icon side">
+                    <img src="./asset/player_icon5.png" class="play-icon side" >
+
+                </div>
+                <div class="down">
+                    <span class="curr">00:00</span>
+                    <input type="range" min="0" max="100" class="prog-bar">
+                    <span class="tot">03:40</span>
+
+                </div>
+            </div>
+            
+            <div class="right">
+                <div class="like">
+                    <img src="./homework asset/controls_icon1.png" class="i1">
+                    <img src="./homework asset/controls_icon2.png" class="i2">
+                    <img src="./homework asset/controls_icon3.png" class="i3">
+                    <img src="./homework asset/controls_icon4.png">
+                    <img src="./homework asset/controls_icon5.png">
+                    <input type="range" min="0" max="100" class="vol">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
